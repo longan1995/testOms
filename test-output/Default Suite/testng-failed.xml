@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testoms(failed)">
+    <classes>
+      <class name="com.testOms.ManagedFutures.testCaseFuturesOrder">
+        <methods>
+          <include name="storeNumf"/>
+          <include name="usableRange"/>
+          <include name="futuresOrderState"/>
+          <include name="exchangeFair"/>
+          <include name="timeNew"/>
+          <include name="storeNumI"/>
+          <include name="remarks2"/>
+          <include name="aviailableOrNot"/>
+          <include name="usableRangeNew"/>
+          <include name="quitEnv"/>
+          <include name="availableOrNot2"/>
+          <include name="cancelf"/>
+          <include name="exhangeFairBeginTime"/>
+          <include name="cancel"/>
+          <include name="setUpEnv"/>
+          <include name="windowquitf1"/>
+          <include name="windowquit1"/>
+          <include name="productEdit"/>
+          <include name="exhangeFairEndTime"/>
+          <include name="exhangeFairfo"/>
+        </methods>
+      </class> <!-- com.testOms.ManagedFutures.testCaseFuturesOrder -->
+    </classes>
+  </test> <!-- testoms(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
